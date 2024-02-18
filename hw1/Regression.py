@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset = pd.read_csv('dataset.csv')
+dataset = pd.read_csv('hw1/dataset.csv')
 
 X = dataset['X'].values
 Y = dataset['Y'].values
